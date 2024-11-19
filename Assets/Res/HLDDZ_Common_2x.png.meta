@@ -1,0 +1,2748 @@
+fileFormatVersion: 2
+guid: 72541cab3c524e043b758708428339a0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: HLDDZ_Common_2x_0
+  - first:
+      213: 21300002
+    second: HLDDZ_Common_2x_1
+  - first:
+      213: 21300004
+    second: HLDDZ_Common_2x_2
+  - first:
+      213: 21300006
+    second: HLDDZ_Common_2x_3
+  - first:
+      213: 21300008
+    second: HLDDZ_Common_2x_4
+  - first:
+      213: 21300010
+    second: HLDDZ_Common_2x_5
+  - first:
+      213: 21300012
+    second: HLDDZ_Common_2x_6
+  - first:
+      213: 21300014
+    second: HLDDZ_Common_2x_7
+  - first:
+      213: 21300016
+    second: HLDDZ_Common_2x_8
+  - first:
+      213: 21300018
+    second: HLDDZ_Common_2x_9
+  - first:
+      213: 21300020
+    second: HLDDZ_Common_2x_10
+  - first:
+      213: 21300022
+    second: HLDDZ_Common_2x_11
+  - first:
+      213: 21300024
+    second: HLDDZ_Common_2x_12
+  - first:
+      213: 21300026
+    second: HLDDZ_Common_2x_13
+  - first:
+      213: 21300028
+    second: HLDDZ_Common_2x_14
+  - first:
+      213: 21300030
+    second: HLDDZ_Common_2x_15
+  - first:
+      213: 21300032
+    second: HLDDZ_Common_2x_16
+  - first:
+      213: 21300034
+    second: HLDDZ_Common_2x_17
+  - first:
+      213: 21300036
+    second: HLDDZ_Common_2x_18
+  - first:
+      213: 21300038
+    second: HLDDZ_Common_2x_19
+  - first:
+      213: 21300040
+    second: HLDDZ_Common_2x_20
+  - first:
+      213: 21300042
+    second: HLDDZ_Common_2x_21
+  - first:
+      213: 21300044
+    second: HLDDZ_Common_2x_22
+  - first:
+      213: 21300046
+    second: HLDDZ_Common_2x_23
+  - first:
+      213: 21300048
+    second: HLDDZ_Common_2x_24
+  - first:
+      213: 21300050
+    second: HLDDZ_Common_2x_25
+  - first:
+      213: 21300052
+    second: HLDDZ_Common_2x_26
+  - first:
+      213: 21300054
+    second: HLDDZ_Common_2x_27
+  - first:
+      213: 21300056
+    second: HLDDZ_Common_2x_28
+  - first:
+      213: 21300058
+    second: HLDDZ_Common_2x_29
+  - first:
+      213: 21300060
+    second: HLDDZ_Common_2x_30
+  - first:
+      213: 21300062
+    second: HLDDZ_Common_2x_31
+  - first:
+      213: 21300064
+    second: HLDDZ_Common_2x_32
+  - first:
+      213: 21300066
+    second: HLDDZ_Common_2x_33
+  - first:
+      213: 21300068
+    second: HLDDZ_Common_2x_34
+  - first:
+      213: 21300070
+    second: HLDDZ_Common_2x_35
+  - first:
+      213: 21300072
+    second: HLDDZ_Common_2x_36
+  - first:
+      213: 21300074
+    second: HLDDZ_Common_2x_37
+  - first:
+      213: 21300076
+    second: HLDDZ_Common_2x_38
+  - first:
+      213: 21300078
+    second: HLDDZ_Common_2x_39
+  - first:
+      213: 21300080
+    second: HLDDZ_Common_2x_40
+  - first:
+      213: 21300082
+    second: HLDDZ_Common_2x_41
+  - first:
+      213: 21300084
+    second: HLDDZ_Common_2x_42
+  - first:
+      213: 21300086
+    second: HLDDZ_Common_2x_43
+  - first:
+      213: 21300088
+    second: HLDDZ_Common_2x_44
+  - first:
+      213: 21300090
+    second: HLDDZ_Common_2x_45
+  - first:
+      213: 21300092
+    second: HLDDZ_Common_2x_46
+  - first:
+      213: 21300094
+    second: HLDDZ_Common_2x_47
+  - first:
+      213: 21300096
+    second: HLDDZ_Common_2x_48
+  - first:
+      213: 21300098
+    second: HLDDZ_Common_2x_49
+  - first:
+      213: 21300100
+    second: HLDDZ_Common_2x_50
+  - first:
+      213: 21300102
+    second: HLDDZ_Common_2x_51
+  - first:
+      213: 21300104
+    second: HLDDZ_Common_2x_52
+  - first:
+      213: 21300106
+    second: HLDDZ_Common_2x_53
+  - first:
+      213: 21300108
+    second: HLDDZ_Common_2x_54
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 766
+        width: 44
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 936
+        width: 125
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_2
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 971
+        width: 101
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_3
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 974
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_4
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 948
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_5
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 948
+        width: 74
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_6
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 834
+        width: 175
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_7
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 675
+        width: 120
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_8
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 997
+        width: 88
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_9
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 916
+        width: 135
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_10
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 852
+        width: 126
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_11
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 913
+        width: 98
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_12
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 858
+        width: 50
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_13
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 858
+        width: 76
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_14
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 860
+        width: 77
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_15
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 918
+        width: 155
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 858
+        width: 100
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_17
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 786
+        width: 126
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_18
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 802
+        width: 29
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44305410000000000800000000000000
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_19
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 812
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64305410000000000800000000000000
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_20
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 810
+        width: 49
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84305410000000000800000000000000
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_21
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 836
+        width: 66
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4305410000000000800000000000000
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_22
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 837
+        width: 74
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4305410000000000800000000000000
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_23
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 833
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4305410000000000800000000000000
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_24
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 833
+        width: 74
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05305410000000000800000000000000
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_25
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 765
+        width: 124
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25305410000000000800000000000000
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_26
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 846
+        width: 109
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45305410000000000800000000000000
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_27
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 846
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65305410000000000800000000000000
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_28
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 781
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85305410000000000800000000000000
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_29
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 830
+        width: 17
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5305410000000000800000000000000
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_30
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 775
+        width: 124
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5305410000000000800000000000000
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_31
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 804
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5305410000000000800000000000000
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_32
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 750
+        width: 89
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06305410000000000800000000000000
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_33
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 756
+        width: 51
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26305410000000000800000000000000
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_34
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 757
+        width: 51
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46305410000000000800000000000000
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_35
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 756
+        width: 51
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66305410000000000800000000000000
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_36
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 756
+        width: 51
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86305410000000000800000000000000
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_37
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 778
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6305410000000000800000000000000
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_38
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 768
+        width: 86
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6305410000000000800000000000000
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_39
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 768
+        width: 39
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6305410000000000800000000000000
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_40
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 774
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07305410000000000800000000000000
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_41
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 762
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27305410000000000800000000000000
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 230
+        width: 1022
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 463, y: -75}
+        - {x: 459, y: -79}
+        - {x: 458, y: -78}
+        - {x: 453, y: -76}
+        - {x: 458, y: -77}
+        - {x: 460, y: -77}
+        - {x: 469, y: -69}
+        - {x: 477, y: -68}
+        - {x: 500, y: -60}
+        - {x: 505, y: -57}
+        - {x: 506, y: -51}
+        - {x: 511, y: 41}
+        - {x: 511, y: 213}
+        - {x: 465, y: 205}
+        - {x: 448, y: 176}
+        - {x: 435, y: 176}
+        - {x: 469, y: 210}
+        - {x: 474, y: 268}
+        - {x: 333, y: 266}
+        - {x: 312, y: 234}
+        - {x: 309, y: 214}
+        - {x: 309, y: 196}
+        - {x: 310, y: 188}
+        - {x: 326, y: 169}
+        - {x: 288, y: 170}
+        - {x: 309, y: 189}
+        - {x: 307, y: 227}
+        - {x: 288, y: 267}
+        - {x: 270, y: 270}
+        - {x: 175, y: 270}
+        - {x: 177, y: 267}
+        - {x: 173, y: 208}
+        - {x: 173, y: 202}
+        - {x: 173, y: 220}
+        - {x: 172, y: 223}
+        - {x: 116, y: 222}
+        - {x: 112, y: 214}
+        - {x: 58, y: 210}
+        - {x: 57, y: 207}
+        - {x: 57, y: 189}
+        - {x: 62, y: 184}
+        - {x: 50, y: 184}
+        - {x: 56, y: 191}
+        - {x: 55, y: 208}
+        - {x: 53, y: 211}
+        - {x: 22, y: 211}
+        - {x: -2, y: 210}
+        - {x: -9, y: 219}
+        - {x: -10, y: 221}
+        - {x: -12, y: 221}
+        - {x: -8, y: 220}
+        - {x: -3, y: 214}
+        - {x: 41, y: 213}
+        - {x: 112, y: 214}
+        - {x: 115, y: 223}
+        - {x: 121, y: 223}
+        - {x: 141, y: 228}
+        - {x: 165, y: 237}
+        - {x: 172, y: 249}
+        - {x: 144, y: 249}
+        - {x: 141, y: 253}
+        - {x: 144, y: 249}
+        - {x: 157, y: 250}
+        - {x: 160, y: 251}
+        - {x: 162, y: 256}
+        - {x: 160, y: 258}
+        - {x: 155, y: 258}
+        - {x: 157, y: 260}
+        - {x: 159, y: 263}
+        - {x: 147, y: 270}
+        - {x: -16, y: 270}
+        - {x: -16, y: 269}
+        - {x: -15, y: 266}
+        - {x: -17, y: 270}
+        - {x: -100, y: 270}
+        - {x: -103, y: 263}
+        - {x: -110, y: 270}
+        - {x: -239, y: 270}
+        - {x: -236, y: 251}
+        - {x: -236, y: 235}
+        - {x: -230, y: 222}
+        - {x: -203, y: 223}
+        - {x: -195, y: 223}
+        - {x: -200, y: 223}
+        - {x: -205, y: 218}
+        - {x: -234, y: 221}
+        - {x: -238, y: 206}
+        - {x: -237, y: 190}
+        - {x: -227, y: 183}
+        - {x: -220, y: 183}
+        - {x: -215, y: 185}
+        - {x: -203, y: 182}
+        - {x: -241, y: 182}
+        - {x: -238, y: 190}
+        - {x: -238, y: 221}
+        - {x: -241, y: 222}
+        - {x: -251, y: 223}
+        - {x: -251, y: 222}
+        - {x: -245, y: 223}
+        - {x: -238, y: 229}
+        - {x: -236, y: 244}
+        - {x: -243, y: 267}
+        - {x: -251, y: 270}
+        - {x: -429, y: 270}
+        - {x: -429, y: 268}
+        - {x: -427, y: 266}
+        - {x: -410, y: 265}
+        - {x: -412, y: 266}
+        - {x: -418, y: 263}
+        - {x: -424, y: 261}
+        - {x: -451, y: 251}
+        - {x: -453, y: 188}
+        - {x: -431, y: 182}
+        - {x: -420, y: 182}
+        - {x: -498, y: 182}
+        - {x: -511, y: 194}
+        - {x: -511, y: -270}
+        - {x: 511, y: -270}
+        - {x: 511, y: -79}
+        - {x: 506, y: -65}
+      - - {x: 149, y: -238}
+        - {x: 149, y: -113}
+        - {x: 157, y: -103}
+        - {x: 177, y: -102}
+        - {x: 168, y: -109}
+        - {x: 170, y: -122}
+        - {x: 172, y: -126}
+        - {x: 178, y: -123}
+        - {x: 191, y: -107}
+        - {x: 192, y: -103}
+        - {x: 192, y: -98}
+        - {x: 190, y: -96}
+        - {x: 190, y: -82}
+        - {x: 193, y: -83}
+        - {x: 196, y: -81}
+        - {x: 201, y: -75}
+        - {x: 198, y: -75}
+        - {x: 194, y: -79}
+        - {x: 192, y: -84}
+        - {x: 192, y: -87}
+        - {x: 191, y: -94}
+        - {x: 191, y: -100}
+        - {x: 194, y: -106}
+        - {x: 192, y: -108}
+        - {x: 191, y: -114}
+        - {x: 194, y: -122}
+        - {x: 198, y: -126}
+        - {x: 201, y: -127}
+        - {x: 205, y: -127}
+        - {x: 207, y: -126}
+        - {x: 203, y: -125}
+        - {x: 200, y: -126}
+        - {x: 195, y: -128}
+        - {x: 190, y: -131}
+        - {x: 183, y: -138}
+        - {x: 184, y: -251}
+        - {x: 160, y: -250}
+      - - {x: 110, y: -71}
+        - {x: 113, y: -71}
+        - {x: 114, y: -72}
+        - {x: 117, y: -72}
+        - {x: 118, y: -73}
+        - {x: 122, y: -73}
+        - {x: 124, y: -75}
+        - {x: 125, y: -75}
+        - {x: 126, y: -74}
+        - {x: 127, y: -75}
+        - {x: 131, y: -75}
+        - {x: 133, y: -74}
+        - {x: 137, y: -77}
+        - {x: 143, y: -76}
+        - {x: 140, y: -75}
+        - {x: 136, y: -78}
+        - {x: 135, y: -78}
+        - {x: 125, y: -88}
+        - {x: 125, y: -89}
+        - {x: 123, y: -91}
+        - {x: 121, y: -99}
+        - {x: 119, y: -101}
+        - {x: 119, y: -104}
+        - {x: 120, y: -105}
+        - {x: 120, y: -107}
+        - {x: 119, y: -108}
+        - {x: 119, y: -176}
+        - {x: 113, y: -176}
+        - {x: 110, y: -179}
+      - - {x: 233, y: -127}
+        - {x: 234, y: -126}
+        - {x: 237, y: -126}
+        - {x: 240, y: -125}
+        - {x: 245, y: -119}
+        - {x: 245, y: -118}
+        - {x: 244, y: -118}
+        - {x: 244, y: -119}
+        - {x: 249, y: -124}
+        - {x: 254, y: -126}
+        - {x: 276, y: -126}
+        - {x: 277, y: -127}
+        - {x: 281, y: -126}
+        - {x: 217, y: -126}
+        - {x: 218, y: -127}
+      - - {x: 289, y: -125}
+        - {x: 290, y: -125}
+        - {x: 295, y: -120}
+        - {x: 295, y: -100}
+        - {x: 294, y: -99}
+        - {x: 294, y: -84}
+        - {x: 293, y: -81}
+        - {x: 289, y: -78}
+        - {x: 288, y: -78}
+        - {x: 284, y: -75}
+        - {x: 279, y: -75}
+        - {x: 278, y: -76}
+        - {x: 276, y: -74}
+        - {x: 274, y: -75}
+        - {x: 278, y: -77}
+        - {x: 281, y: -75}
+        - {x: 285, y: -75}
+        - {x: 286, y: -76}
+        - {x: 292, y: -81}
+        - {x: 295, y: -82}
+        - {x: 295, y: -87}
+        - {x: 296, y: -88}
+        - {x: 296, y: -90}
+        - {x: 295, y: -91}
+        - {x: 295, y: -101}
+        - {x: 298, y: -104}
+        - {x: 299, y: -104}
+        - {x: 302, y: -101}
+        - {x: 302, y: -95}
+        - {x: 301, y: -95}
+        - {x: 301, y: -99}
+        - {x: 303, y: -103}
+        - {x: 302, y: -104}
+        - {x: 302, y: -110}
+        - {x: 301, y: -111}
+        - {x: 301, y: -113}
+        - {x: 302, y: -114}
+        - {x: 302, y: -122}
+        - {x: 305, y: -125}
+        - {x: 314, y: -125}
+        - {x: 316, y: -124}
+        - {x: 317, y: -125}
+        - {x: 323, y: -125}
+        - {x: 324, y: -124}
+        - {x: 345, y: -124}
+        - {x: 350, y: -121}
+        - {x: 353, y: -112}
+        - {x: 352, y: -111}
+        - {x: 352, y: -109}
+        - {x: 350, y: -107}
+        - {x: 352, y: -105}
+        - {x: 352, y: -104}
+        - {x: 351, y: -103}
+        - {x: 352, y: -101}
+        - {x: 351, y: -100}
+        - {x: 353, y: -101}
+        - {x: 356, y: -98}
+        - {x: 356, y: -95}
+        - {x: 355, y: -93}
+        - {x: 356, y: -92}
+        - {x: 356, y: -89}
+        - {x: 355, y: -87}
+        - {x: 356, y: -86}
+        - {x: 356, y: -84}
+        - {x: 353, y: -81}
+        - {x: 348, y: -81}
+        - {x: 343, y: -76}
+        - {x: 318, y: -76}
+        - {x: 317, y: -75}
+        - {x: 312, y: -76}
+        - {x: 323, y: -77}
+        - {x: 325, y: -75}
+        - {x: 327, y: -75}
+        - {x: 329, y: -77}
+        - {x: 344, y: -77}
+        - {x: 344, y: -78}
+        - {x: 347, y: -81}
+        - {x: 349, y: -81}
+        - {x: 351, y: -83}
+        - {x: 355, y: -83}
+        - {x: 361, y: -78}
+        - {x: 367, y: -78}
+        - {x: 371, y: -76}
+        - {x: 377, y: -76}
+        - {x: 380, y: -73}
+        - {x: 381, y: -73}
+        - {x: 380, y: -75}
+        - {x: 384, y: -79}
+        - {x: 394, y: -80}
+        - {x: 398, y: -82}
+        - {x: 399, y: -99}
+        - {x: 400, y: -85}
+        - {x: 399, y: -82}
+        - {x: 394, y: -78}
+        - {x: 385, y: -78}
+        - {x: 382, y: -75}
+        - {x: 372, y: -75}
+        - {x: 369, y: -78}
+        - {x: 360, y: -78}
+        - {x: 354, y: -84}
+        - {x: 354, y: -99}
+        - {x: 353, y: -100}
+        - {x: 353, y: -101}
+        - {x: 350, y: -104}
+        - {x: 350, y: -110}
+        - {x: 353, y: -113}
+        - {x: 353, y: -116}
+        - {x: 354, y: -119}
+        - {x: 359, y: -123}
+        - {x: 383, y: -123}
+        - {x: 385, y: -125}
+        - {x: 395, y: -125}
+        - {x: 398, y: -124}
+        - {x: 402, y: -119}
+        - {x: 405, y: -119}
+        - {x: 408, y: -116}
+        - {x: 408, y: -111}
+        - {x: 407, y: -110}
+        - {x: 407, y: -107}
+        - {x: 408, y: -106}
+        - {x: 408, y: -103}
+        - {x: 407, y: -102}
+        - {x: 407, y: -97}
+        - {x: 408, y: -96}
+        - {x: 408, y: -94}
+        - {x: 407, y: -93}
+        - {x: 407, y: -83}
+        - {x: 411, y: -80}
+        - {x: 408, y: -81}
+        - {x: 407, y: -84}
+        - {x: 407, y: -91}
+        - {x: 409, y: -95}
+        - {x: 407, y: -99}
+        - {x: 407, y: -102}
+        - {x: 408, y: -103}
+        - {x: 407, y: -105}
+        - {x: 407, y: -110}
+        - {x: 410, y: -116}
+        - {x: 410, y: -120}
+        - {x: 411, y: -121}
+        - {x: 410, y: -122}
+        - {x: 410, y: -124}
+        - {x: 412, y: -126}
+        - {x: 286, y: -126}
+        - {x: 287, y: -127}
+      - - {x: 436, y: -127}
+        - {x: 440, y: -124}
+        - {x: 442, y: -124}
+        - {x: 445, y: -127}
+        - {x: 448, y: -126}
+        - {x: 427, y: -126}
+        - {x: 428, y: -127}
+      - - {x: 458, y: -122}
+        - {x: 461, y: -119}
+        - {x: 465, y: -123}
+        - {x: 468, y: -124}
+        - {x: 472, y: -124}
+        - {x: 476, y: -126}
+        - {x: 457, y: -126}
+        - {x: 458, y: -125}
+      - - {x: 296, y: -114}
+        - {x: 298, y: -116}
+        - {x: 301, y: -115}
+        - {x: 301, y: -111}
+        - {x: 299, y: -109}
+        - {x: 296, y: -110}
+      - - {x: 243, y: -95}
+        - {x: 243, y: -81}
+        - {x: 241, y: -80}
+        - {x: 243, y: -82}
+        - {x: 246, y: -82}
+        - {x: 252, y: -78}
+        - {x: 248, y: -78}
+        - {x: 244, y: -83}
+        - {x: 244, y: -98}
+        - {x: 245, y: -98}
+      - - {x: 310, y: -78}
+        - {x: 308, y: -77}
+        - {x: 301, y: -82}
+        - {x: 302, y: -83}
+      - - {x: 404, y: -77}
+        - {x: 404, y: -77}
+      - - {x: 416, y: -76}
+        - {x: 421, y: -76}
+        - {x: 415, y: -76}
+        - {x: 414, y: -78}
+        - {x: 416, y: -77}
+      - - {x: 254, y: -74}
+        - {x: 258, y: -76}
+        - {x: 259, y: -75}
+        - {x: 260, y: -75}
+        - {x: 255, y: -75}
+        - {x: 255, y: -74}
+      - - {x: 179, y: -73}
+        - {x: 183, y: -74}
+        - {x: 184, y: -73}
+        - {x: 188, y: -73}
+        - {x: 189, y: -72}
+        - {x: 189, y: -73}
+        - {x: 188, y: -72}
+      - - {x: 297, y: -72}
+        - {x: 290, y: -71}
+        - {x: 290, y: -72}
+      - - {x: 111, y: -59}
+        - {x: 113, y: -61}
+        - {x: 117, y: -60}
+        - {x: 110, y: -59}
+      - - {x: 287, y: -57}
+        - {x: 282, y: -58}
+        - {x: 284, y: -59}
+        - {x: 287, y: -56}
+        - {x: 287, y: -55}
+        - {x: 280, y: -47}
+        - {x: 275, y: -47}
+        - {x: 272, y: -50}
+        - {x: 272, y: -53}
+        - {x: 260, y: -54}
+        - {x: 261, y: -55}
+        - {x: 265, y: -51}
+        - {x: 267, y: -51}
+        - {x: 270, y: -49}
+        - {x: 271, y: -47}
+        - {x: 275, y: -47}
+        - {x: 278, y: -44}
+        - {x: 278, y: -20}
+        - {x: 275, y: -17}
+        - {x: 278, y: -14}
+        - {x: 278, y: -9}
+        - {x: 275, y: -6}
+        - {x: 275, y: -7}
+        - {x: 277, y: -5}
+        - {x: 281, y: -5}
+        - {x: 284, y: -2}
+        - {x: 284, y: 1}
+        - {x: 285, y: 1}
+        - {x: 285, y: -2}
+        - {x: 287, y: -4}
+        - {x: 286, y: -6}
+        - {x: 286, y: -12}
+        - {x: 284, y: -14}
+        - {x: 284, y: -20}
+        - {x: 286, y: -22}
+        - {x: 286, y: -29}
+        - {x: 287, y: -30}
+        - {x: 287, y: -34}
+        - {x: 290, y: -38}
+        - {x: 289, y: -37}
+        - {x: 284, y: -41}
+        - {x: 284, y: -50}
+        - {x: 286, y: -52}
+        - {x: 286, y: -56}
+        - {x: 289, y: -59}
+        - {x: 290, y: -59}
+        - {x: 289, y: -59}
+        - {x: 289, y: -58}
+      - - {x: 369, y: -54}
+        - {x: 366, y: -54}
+        - {x: 365, y: -53}
+        - {x: 357, y: -53}
+        - {x: 360, y: -53}
+        - {x: 363, y: -51}
+        - {x: 366, y: -44}
+        - {x: 365, y: -43}
+        - {x: 365, y: -39}
+        - {x: 366, y: -38}
+        - {x: 366, y: -27}
+        - {x: 365, y: -26}
+        - {x: 364, y: -20}
+        - {x: 361, y: -17}
+        - {x: 360, y: -17}
+        - {x: 356, y: -13}
+        - {x: 356, y: -11}
+        - {x: 355, y: -10}
+        - {x: 357, y: -11}
+        - {x: 359, y: -13}
+        - {x: 362, y: -13}
+        - {x: 368, y: -8}
+        - {x: 368, y: -2}
+        - {x: 367, y: -1}
+        - {x: 367, y: 3}
+        - {x: 368, y: 4}
+        - {x: 368, y: 10}
+        - {x: 365, y: 13}
+        - {x: 364, y: 13}
+        - {x: 364, y: 15}
+        - {x: 361, y: 18}
+        - {x: 358, y: 18}
+        - {x: 355, y: 15}
+        - {x: 353, y: 17}
+        - {x: 348, y: 17}
+        - {x: 347, y: 16}
+        - {x: 343, y: 16}
+        - {x: 341, y: 14}
+        - {x: 340, y: 16}
+        - {x: 337, y: 17}
+        - {x: 334, y: 19}
+        - {x: 305, y: 19}
+        - {x: 298, y: 12}
+        - {x: 296, y: 12}
+        - {x: 290, y: 6}
+        - {x: 290, y: 10}
+        - {x: 287, y: 13}
+        - {x: 281, y: 13}
+        - {x: 280, y: 11}
+        - {x: 283, y: 13}
+        - {x: 283, y: 14}
+        - {x: 281, y: 16}
+        - {x: 281, y: 18}
+        - {x: 278, y: 21}
+        - {x: 274, y: 21}
+        - {x: 269, y: 25}
+        - {x: 268, y: 25}
+        - {x: 268, y: 27}
+        - {x: 265, y: 30}
+        - {x: 263, y: 30}
+        - {x: 260, y: 27}
+        - {x: 260, y: 26}
+        - {x: 257, y: 25}
+        - {x: 251, y: 19}
+        - {x: 247, y: 23}
+        - {x: 242, y: 23}
+        - {x: 241, y: 24}
+        - {x: 239, y: 24}
+        - {x: 238, y: 23}
+        - {x: 236, y: 24}
+        - {x: 236, y: 27}
+        - {x: 235, y: 28}
+        - {x: 237, y: 31}
+        - {x: 238, y: 35}
+        - {x: 242, y: 40}
+        - {x: 242, y: 43}
+        - {x: 243, y: 44}
+        - {x: 243, y: 46}
+        - {x: 245, y: 48}
+        - {x: 245, y: 51}
+        - {x: 247, y: 53}
+        - {x: 247, y: 55}
+        - {x: 249, y: 58}
+        - {x: 250, y: 60}
+        - {x: 253, y: 60}
+        - {x: 257, y: 63}
+        - {x: 260, y: 64}
+        - {x: 262, y: 67}
+        - {x: 269, y: 67}
+        - {x: 272, y: 70}
+        - {x: 272, y: 77}
+        - {x: 275, y: 79}
+        - {x: 276, y: 82}
+        - {x: 278, y: 85}
+        - {x: 279, y: 89}
+        - {x: 282, y: 95}
+        - {x: 282, y: 99}
+        - {x: 283, y: 100}
+        - {x: 283, y: 118}
+        - {x: 282, y: 119}
+        - {x: 282, y: 123}
+        - {x: 281, y: 124}
+        - {x: 280, y: 129}
+        - {x: 278, y: 134}
+        - {x: 276, y: 136}
+        - {x: 275, y: 139}
+        - {x: 272, y: 142}
+        - {x: 270, y: 147}
+        - {x: 268, y: 149}
+        - {x: 263, y: 151}
+        - {x: 260, y: 154}
+        - {x: 257, y: 155}
+        - {x: 252, y: 159}
+        - {x: 248, y: 158}
+        - {x: 278, y: 157}
+        - {x: 278, y: 156}
+        - {x: 281, y: 153}
+        - {x: 451, y: 153}
+        - {x: 454, y: 156}
+        - {x: 454, y: 158}
+        - {x: 453, y: 159}
+        - {x: 452, y: 156}
+        - {x: 454, y: 153}
+        - {x: 454, y: 151}
+        - {x: 456, y: 149}
+        - {x: 456, y: 145}
+        - {x: 459, y: 142}
+        - {x: 461, y: 142}
+        - {x: 461, y: 141}
+        - {x: 464, y: 138}
+        - {x: 464, y: 132}
+        - {x: 466, y: 129}
+        - {x: 469, y: 128}
+        - {x: 475, y: 128}
+        - {x: 477, y: 130}
+        - {x: 478, y: 130}
+        - {x: 471, y: 130}
+        - {x: 468, y: 129}
+        - {x: 461, y: 122}
+        - {x: 461, y: 121}
+        - {x: 458, y: 119}
+        - {x: 457, y: 116}
+        - {x: 457, y: 104}
+        - {x: 458, y: 101}
+        - {x: 464, y: 96}
+        - {x: 464, y: 94}
+        - {x: 467, y: 91}
+        - {x: 470, y: 92}
+        - {x: 469, y: 93}
+        - {x: 463, y: 88}
+        - {x: 464, y: 88}
+        - {x: 461, y: 91}
+        - {x: 459, y: 91}
+        - {x: 456, y: 88}
+        - {x: 456, y: 86}
+        - {x: 455, y: 86}
+        - {x: 454, y: 85}
+        - {x: 455, y: 85}
+        - {x: 455, y: 87}
+        - {x: 452, y: 90}
+        - {x: 453, y: 93}
+        - {x: 446, y: 100}
+        - {x: 442, y: 100}
+        - {x: 441, y: 101}
+        - {x: 439, y: 101}
+        - {x: 439, y: 102}
+        - {x: 435, y: 106}
+        - {x: 434, y: 106}
+        - {x: 431, y: 103}
+        - {x: 431, y: 98}
+        - {x: 430, y: 97}
+        - {x: 426, y: 97}
+        - {x: 422, y: 100}
+        - {x: 420, y: 100}
+        - {x: 419, y: 101}
+        - {x: 415, y: 101}
+        - {x: 413, y: 103}
+        - {x: 395, y: 103}
+        - {x: 392, y: 100}
+        - {x: 391, y: 100}
+        - {x: 388, y: 103}
+        - {x: 387, y: 103}
+        - {x: 386, y: 102}
+        - {x: 384, y: 103}
+        - {x: 381, y: 100}
+        - {x: 381, y: 97}
+        - {x: 380, y: 96}
+        - {x: 378, y: 97}
+        - {x: 375, y: 94}
+        - {x: 375, y: 88}
+        - {x: 377, y: 86}
+        - {x: 377, y: 85}
+        - {x: 374, y: 82}
+        - {x: 374, y: 61}
+        - {x: 373, y: 61}
+        - {x: 369, y: 57}
+        - {x: 368, y: 53}
+        - {x: 367, y: 53}
+        - {x: 366, y: 54}
+        - {x: 366, y: 62}
+        - {x: 368, y: 64}
+        - {x: 368, y: 70}
+        - {x: 367, y: 71}
+        - {x: 367, y: 76}
+        - {x: 364, y: 79}
+        - {x: 362, y: 78}
+        - {x: 362, y: 81}
+        - {x: 356, y: 87}
+        - {x: 356, y: 86}
+        - {x: 359, y: 89}
+        - {x: 359, y: 94}
+        - {x: 358, y: 95}
+        - {x: 359, y: 99}
+        - {x: 356, y: 102}
+        - {x: 352, y: 102}
+        - {x: 350, y: 104}
+        - {x: 343, y: 104}
+        - {x: 341, y: 102}
+        - {x: 340, y: 103}
+        - {x: 338, y: 103}
+        - {x: 337, y: 102}
+        - {x: 338, y: 106}
+        - {x: 335, y: 109}
+        - {x: 329, y: 109}
+        - {x: 326, y: 106}
+        - {x: 325, y: 106}
+        - {x: 321, y: 109}
+        - {x: 319, y: 109}
+        - {x: 319, y: 112}
+        - {x: 316, y: 115}
+        - {x: 314, y: 114}
+        - {x: 312, y: 115}
+        - {x: 309, y: 112}
+        - {x: 309, y: 109}
+        - {x: 305, y: 109}
+        - {x: 300, y: 107}
+        - {x: 297, y: 103}
+        - {x: 293, y: 103}
+        - {x: 290, y: 100}
+        - {x: 290, y: 95}
+        - {x: 286, y: 88}
+        - {x: 286, y: 78}
+        - {x: 284, y: 76}
+        - {x: 284, y: 64}
+        - {x: 287, y: 61}
+        - {x: 287, y: 59}
+        - {x: 289, y: 57}
+        - {x: 289, y: 55}
+        - {x: 287, y: 57}
+        - {x: 286, y: 57}
+        - {x: 284, y: 55}
+        - {x: 283, y: 55}
+        - {x: 278, y: 50}
+        - {x: 279, y: 47}
+        - {x: 278, y: 46}
+        - {x: 278, y: 45}
+        - {x: 273, y: 40}
+        - {x: 273, y: 37}
+        - {x: 278, y: 32}
+        - {x: 277, y: 31}
+        - {x: 277, y: 29}
+        - {x: 278, y: 28}
+        - {x: 277, y: 27}
+        - {x: 277, y: 25}
+        - {x: 285, y: 17}
+        - {x: 287, y: 17}
+        - {x: 290, y: 20}
+        - {x: 289, y: 28}
+        - {x: 293, y: 25}
+        - {x: 311, y: 24}
+        - {x: 312, y: 23}
+        - {x: 324, y: 23}
+        - {x: 325, y: 22}
+        - {x: 327, y: 22}
+        - {x: 328, y: 23}
+        - {x: 330, y: 22}
+        - {x: 331, y: 23}
+        - {x: 332, y: 23}
+        - {x: 332, y: 20}
+        - {x: 335, y: 17}
+        - {x: 339, y: 17}
+        - {x: 341, y: 15}
+        - {x: 342, y: 15}
+        - {x: 344, y: 17}
+        - {x: 354, y: 18}
+        - {x: 356, y: 17}
+        - {x: 359, y: 19}
+        - {x: 361, y: 17}
+        - {x: 369, y: 16}
+        - {x: 370, y: 15}
+        - {x: 374, y: 12}
+        - {x: 376, y: 12}
+        - {x: 376, y: 10}
+        - {x: 379, y: 7}
+        - {x: 383, y: 7}
+        - {x: 386, y: 10}
+        - {x: 385, y: 14}
+        - {x: 386, y: 13}
+        - {x: 389, y: 13}
+        - {x: 392, y: 16}
+        - {x: 392, y: 24}
+        - {x: 399, y: 24}
+        - {x: 400, y: 23}
+        - {x: 410, y: 23}
+        - {x: 410, y: 22}
+        - {x: 413, y: 19}
+        - {x: 419, y: 19}
+        - {x: 422, y: 22}
+        - {x: 422, y: 23}
+        - {x: 422, y: 22}
+        - {x: 425, y: 19}
+        - {x: 431, y: 19}
+        - {x: 434, y: 22}
+        - {x: 434, y: 24}
+        - {x: 442, y: 24}
+        - {x: 443, y: 25}
+        - {x: 449, y: 25}
+        - {x: 451, y: 27}
+        - {x: 453, y: 27}
+        - {x: 454, y: 28}
+        - {x: 455, y: 27}
+        - {x: 456, y: -6}
+        - {x: 455, y: -5}
+        - {x: 450, y: -5}
+        - {x: 447, y: -8}
+        - {x: 449, y: -11}
+        - {x: 448, y: -10}
+        - {x: 446, y: -10}
+        - {x: 446, y: -8}
+        - {x: 443, y: -5}
+        - {x: 440, y: -5}
+        - {x: 438, y: -3}
+        - {x: 438, y: -1}
+        - {x: 435, y: 2}
+        - {x: 432, y: 2}
+        - {x: 429, y: -1}
+        - {x: 430, y: -3}
+        - {x: 431, y: -6}
+        - {x: 432, y: -3}
+        - {x: 428, y: 1}
+        - {x: 425, y: 1}
+        - {x: 422, y: -2}
+        - {x: 419, y: 1}
+        - {x: 415, y: 1}
+        - {x: 415, y: 4}
+        - {x: 412, y: 7}
+        - {x: 410, y: 6}
+        - {x: 408, y: 7}
+        - {x: 405, y: 4}
+        - {x: 405, y: 3}
+        - {x: 403, y: 3}
+        - {x: 403, y: 4}
+        - {x: 400, y: 7}
+        - {x: 398, y: 6}
+        - {x: 396, y: 7}
+        - {x: 393, y: 4}
+        - {x: 393, y: 1}
+        - {x: 389, y: 1}
+        - {x: 377, y: -10}
+        - {x: 376, y: -14}
+        - {x: 377, y: -15}
+        - {x: 377, y: -17}
+        - {x: 374, y: -20}
+        - {x: 374, y: -44}
+        - {x: 377, y: -47}
+        - {x: 380, y: -47}
+        - {x: 377, y: -47}
+        - {x: 372, y: -52}
+        - {x: 372, y: -54}
+        - {x: 370, y: -56}
+        - {x: 370, y: -57}
+        - {x: 373, y: -60}
+        - {x: 373, y: -58}
+      - - {x: 188, y: -53}
+        - {x: 188, y: -50}
+        - {x: 186, y: -48}
+        - {x: 188, y: -47}
+        - {x: 191, y: -43}
+        - {x: 191, y: -28}
+        - {x: 193, y: -26}
+        - {x: 193, y: -20}
+        - {x: 190, y: -17}
+        - {x: 189, y: -17}
+        - {x: 188, y: -18}
+        - {x: 187, y: -17}
+        - {x: 186, y: -17}
+        - {x: 181, y: -12}
+        - {x: 182, y: -10}
+        - {x: 185, y: -12}
+        - {x: 187, y: -12}
+        - {x: 190, y: -9}
+        - {x: 190, y: -6}
+        - {x: 187, y: -3}
+        - {x: 187, y: -4}
+        - {x: 190, y: -4}
+        - {x: 192, y: -1}
+        - {x: 192, y: 0}
+        - {x: 194, y: 2}
+        - {x: 194, y: 16}
+        - {x: 185, y: 25}
+        - {x: 173, y: 25}
+        - {x: 171, y: 23}
+        - {x: 169, y: 23}
+        - {x: 166, y: 20}
+        - {x: 165, y: 22}
+        - {x: 161, y: 23}
+        - {x: 158, y: 20}
+        - {x: 158, y: 19}
+        - {x: 155, y: 19}
+        - {x: 152, y: 16}
+        - {x: 153, y: 16}
+        - {x: 152, y: 17}
+        - {x: 149, y: 17}
+        - {x: 148, y: 16}
+        - {x: 147, y: 17}
+        - {x: 145, y: 17}
+        - {x: 143, y: 19}
+        - {x: 131, y: 19}
+        - {x: 128, y: 17}
+        - {x: 125, y: 16}
+        - {x: 123, y: 13}
+        - {x: 119, y: 13}
+        - {x: 116, y: 10}
+        - {x: 116, y: 6}
+        - {x: 114, y: 5}
+        - {x: 112, y: 0}
+        - {x: 112, y: -2}
+        - {x: 113, y: -3}
+        - {x: 112, y: -4}
+        - {x: 112, y: -6}
+        - {x: 110, y: -8}
+        - {x: 110, y: -12}
+        - {x: 109, y: 50}
+        - {x: 110, y: 49}
+        - {x: 113, y: 49}
+        - {x: 119, y: 43}
+        - {x: 122, y: 42}
+        - {x: 122, y: 40}
+        - {x: 125, y: 37}
+        - {x: 161, y: 37}
+        - {x: 164, y: 40}
+        - {x: 164, y: 42}
+        - {x: 167, y: 43}
+        - {x: 177, y: 53}
+        - {x: 177, y: 54}
+        - {x: 179, y: 56}
+        - {x: 179, y: 150}
+        - {x: 177, y: 152}
+        - {x: 177, y: 153}
+        - {x: 167, y: 163}
+        - {x: 121, y: 162}
+        - {x: 171, y: 161}
+        - {x: 174, y: 164}
+        - {x: 173, y: 191}
+        - {x: 172, y: 190}
+        - {x: 175, y: 187}
+        - {x: 176, y: 187}
+        - {x: 176, y: 184}
+        - {x: 179, y: 181}
+        - {x: 180, y: 181}
+        - {x: 180, y: 180}
+        - {x: 185, y: 175}
+        - {x: 186, y: 175}
+        - {x: 192, y: 170}
+        - {x: 194, y: 169}
+        - {x: 194, y: 168}
+        - {x: 197, y: 165}
+        - {x: 199, y: 166}
+        - {x: 187, y: 167}
+        - {x: 185, y: 169}
+        - {x: 179, y: 169}
+        - {x: 176, y: 166}
+        - {x: 176, y: 160}
+        - {x: 179, y: 157}
+        - {x: 213, y: 158}
+        - {x: 211, y: 159}
+        - {x: 210, y: 158}
+        - {x: 208, y: 159}
+        - {x: 205, y: 156}
+        - {x: 204, y: 156}
+        - {x: 197, y: 151}
+        - {x: 192, y: 149}
+        - {x: 190, y: 147}
+        - {x: 188, y: 142}
+        - {x: 185, y: 139}
+        - {x: 184, y: 136}
+        - {x: 181, y: 132}
+        - {x: 181, y: 129}
+        - {x: 178, y: 123}
+        - {x: 178, y: 119}
+        - {x: 177, y: 118}
+        - {x: 177, y: 100}
+        - {x: 178, y: 99}
+        - {x: 178, y: 95}
+        - {x: 179, y: 94}
+        - {x: 179, y: 92}
+        - {x: 181, y: 89}
+        - {x: 182, y: 85}
+        - {x: 184, y: 82}
+        - {x: 185, y: 79}
+        - {x: 188, y: 77}
+        - {x: 188, y: 76}
+        - {x: 197, y: 67}
+        - {x: 198, y: 67}
+        - {x: 204, y: 61}
+        - {x: 207, y: 60}
+        - {x: 210, y: 60}
+        - {x: 211, y: 58}
+        - {x: 213, y: 53}
+        - {x: 215, y: 51}
+        - {x: 218, y: 46}
+        - {x: 219, y: 42}
+        - {x: 221, y: 39}
+        - {x: 224, y: 34}
+        - {x: 224, y: 30}
+        - {x: 222, y: 31}
+        - {x: 219, y: 28}
+        - {x: 219, y: 25}
+        - {x: 215, y: 25}
+        - {x: 211, y: 21}
+        - {x: 210, y: 21}
+        - {x: 204, y: 15}
+        - {x: 204, y: 14}
+        - {x: 202, y: 12}
+        - {x: 202, y: 10}
+        - {x: 203, y: 9}
+        - {x: 203, y: 7}
+        - {x: 202, y: 7}
+        - {x: 199, y: 4}
+        - {x: 198, y: 0}
+        - {x: 197, y: -1}
+        - {x: 197, y: -18}
+        - {x: 195, y: -20}
+        - {x: 195, y: -26}
+        - {x: 198, y: -29}
+        - {x: 200, y: -29}
+        - {x: 200, y: -35}
+        - {x: 197, y: -35}
+        - {x: 194, y: -38}
+        - {x: 195, y: -50}
+        - {x: 192, y: -47}
+        - {x: 191, y: -47}
+        - {x: 188, y: -50}
+        - {x: 188, y: -54}
+        - {x: 187, y: -54}
+      - - {x: 224, y: -53}
+        - {x: 224, y: -53}
+      - - {x: 110, y: -22}
+        - {x: 110, y: -26}
+        - {x: 113, y: -30}
+        - {x: 110, y: -29}
+      - - {x: 266, y: -5}
+        - {x: 266, y: -5}
+      - - {x: 429, y: 12}
+        - {x: 431, y: 10}
+        - {x: 447, y: -7}
+        - {x: 451, y: -7}
+        - {x: 451, y: 14}
+        - {x: 450, y: 18}
+        - {x: 431, y: 18}
+        - {x: 429, y: 16}
+      - - {x: 343, y: 24}
+        - {x: 345, y: 23}
+        - {x: 353, y: 24}
+        - {x: 354, y: 25}
+        - {x: 359, y: 25}
+        - {x: 363, y: 26}
+        - {x: 366, y: 28}
+        - {x: 369, y: 28}
+        - {x: 374, y: 32}
+        - {x: 374, y: 37}
+        - {x: 368, y: 28}
+        - {x: 368, y: 25}
+        - {x: 358, y: 25}
+      - - {x: 153, y: 28}
+        - {x: 180, y: 28}
+        - {x: 193, y: 31}
+        - {x: 193, y: 48}
+        - {x: 165, y: 48}
+        - {x: 153, y: 45}
+      - - {x: 273, y: 31}
+        - {x: 276, y: 32}
+        - {x: 276, y: 35}
+        - {x: 273, y: 36}
+        - {x: 271, y: 34}
+      - - {x: 290, y: 37}
+        - {x: 290, y: 37}
+      - - {x: 455, y: 56}
+        - {x: 456, y: 54}
+        - {x: 455, y: 55}
+      - - {x: 122, y: 59}
+        - {x: 122, y: 100}
+        - {x: 120, y: 104}
+        - {x: 122, y: 106}
+        - {x: 122, y: 142}
+        - {x: 121, y: 145}
+        - {x: 125, y: 150}
+        - {x: 129, y: 150}
+        - {x: 130, y: 151}
+        - {x: 156, y: 151}
+        - {x: 157, y: 150}
+        - {x: 164, y: 147}
+        - {x: 164, y: 106}
+        - {x: 166, y: 102}
+        - {x: 164, y: 100}
+        - {x: 164, y: 60}
+        - {x: 161, y: 56}
+        - {x: 158, y: 56}
+        - {x: 157, y: 55}
+        - {x: 129, y: 55}
+        - {x: 128, y: 56}
+      - - {x: 457, y: 64}
+        - {x: 454, y: 67}
+        - {x: 452, y: 67}
+        - {x: 452, y: 73}
+        - {x: 451, y: 74}
+        - {x: 454, y: 73}
+        - {x: 458, y: 77}
+        - {x: 457, y: 80}
+        - {x: 456, y: 69}
+        - {x: 455, y: 68}
+        - {x: 456, y: 62}
+        - {x: 457, y: 63}
+      - - {x: 110, y: 168}
+        - {x: 109, y: 171}
+        - {x: 103, y: 179}
+        - {x: 94, y: 183}
+        - {x: 78, y: 182}
+        - {x: 80, y: 181}
+        - {x: 83, y: 184}
+        - {x: 86, y: 181}
+        - {x: 93, y: 181}
+        - {x: 97, y: 186}
+        - {x: 96, y: 189}
+        - {x: 95, y: 187}
+        - {x: 101, y: 180}
+        - {x: 104, y: 180}
+        - {x: 104, y: 178}
+        - {x: 107, y: 175}
+        - {x: 112, y: 175}
+        - {x: 112, y: 164}
+        - {x: 113, y: 161}
+        - {x: 115, y: 159}
+        - {x: 113, y: 157}
+        - {x: 110, y: 157}
+        - {x: 109, y: 156}
+        - {x: 110, y: 156}
+      - - {x: -148, y: 181}
+        - {x: -145, y: 184}
+        - {x: -139, y: 182}
+        - {x: -150, y: 182}
+        - {x: -149, y: 181}
+      - - {x: -67, y: 181}
+        - {x: -65, y: 183}
+        - {x: -61, y: 182}
+        - {x: -71, y: 182}
+        - {x: -70, y: 181}
+      - - {x: -7, y: 181}
+        - {x: -4, y: 184}
+        - {x: -5, y: 190}
+        - {x: -6, y: 187}
+        - {x: -1, y: 181}
+        - {x: 2, y: 182}
+        - {x: -10, y: 182}
+        - {x: -9, y: 181}
+      - - {x: 19, y: 184}
+        - {x: 18, y: 184}
+        - {x: 20, y: 182}
+        - {x: 17, y: 182}
+        - {x: 18, y: 182}
+      - - {x: 32, y: 189}
+        - {x: 35, y: 189}
+        - {x: 36, y: 190}
+        - {x: 34, y: 190}
+        - {x: 31, y: 187}
+        - {x: 31, y: 186}
+        - {x: 34, y: 183}
+        - {x: 36, y: 183}
+        - {x: 38, y: 181}
+        - {x: 39, y: 182}
+        - {x: 31, y: 182}
+        - {x: 32, y: 183}
+      - - {x: -119, y: 221}
+        - {x: -119, y: 186}
+        - {x: -99, y: 186}
+        - {x: -92, y: 188}
+        - {x: -88, y: 196}
+        - {x: -88, y: 214}
+        - {x: -104, y: 221}
+      - - {x: -51, y: 194}
+        - {x: -48, y: 199}
+        - {x: -49, y: 199}
+        - {x: -46, y: 196}
+        - {x: -46, y: 195}
+        - {x: -48, y: 193}
+        - {x: -48, y: 194}
+      - - {x: 8, y: 196}
+        - {x: 7, y: 198}
+        - {x: 9, y: 198}
+        - {x: 8, y: 194}
+        - {x: 9, y: 193}
+        - {x: 8, y: 193}
+      - - {x: 74, y: 196}
+        - {x: 74, y: 198}
+        - {x: 74, y: 197}
+        - {x: 75, y: 195}
+        - {x: 74, y: 196}
+        - {x: 72, y: 196}
+        - {x: 71, y: 194}
+        - {x: 73, y: 194}
+      - - {x: -510, y: 264}
+        - {x: -510, y: 231}
+        - {x: -496, y: 212}
+        - {x: -467, y: 212}
+        - {x: -467, y: 243}
+        - {x: -505, y: 264}
+      - - {x: -52, y: 220}
+        - {x: -52, y: 219}
+        - {x: -49, y: 217}
+        - {x: -44, y: 219}
+        - {x: -30, y: 223}
+        - {x: -43, y: 223}
+        - {x: -49, y: 217}
+      - - {x: -171, y: 223}
+        - {x: -168, y: 221}
+        - {x: -163, y: 224}
+        - {x: -166, y: 226}
+      - - {x: -319, y: 228}
+        - {x: -320, y: 227}
+        - {x: -316, y: 223}
+        - {x: -315, y: 224}
+        - {x: -317, y: 225}
+        - {x: -319, y: 223}
+        - {x: -318, y: 223}
+      - - {x: -303, y: 223}
+        - {x: -302, y: 224}
+        - {x: -295, y: 224}
+        - {x: -294, y: 223}
+        - {x: -282, y: 224}
+        - {x: -306, y: 224}
+        - {x: -305, y: 223}
+      - - {x: -151, y: 223}
+        - {x: -145, y: 228}
+        - {x: -137, y: 224}
+        - {x: -154, y: 224}
+        - {x: -153, y: 223}
+      - - {x: 20, y: 234}
+        - {x: 17, y: 233}
+        - {x: 17, y: 226}
+        - {x: 19, y: 224}
+        - {x: 23, y: 224}
+        - {x: 25, y: 226}
+        - {x: 25, y: 232}
+        - {x: 24, y: 234}
+      - - {x: -105, y: 264}
+        - {x: -119, y: 264}
+        - {x: -119, y: 231}
+        - {x: -115, y: 228}
+        - {x: -111, y: 228}
+        - {x: -91, y: 236}
+        - {x: -88, y: 240}
+        - {x: -88, y: 248}
+        - {x: -89, y: 253}
+      - - {x: 113, y: 235}
+        - {x: 110, y: 235}
+      - - {x: 116, y: 244}
+        - {x: 116, y: 247}
+        - {x: 115, y: 248}
+        - {x: 116, y: 246}
+        - {x: 116, y: 245}
+        - {x: 114, y: 243}
+        - {x: 115, y: 243}
+      - - {x: -9, y: 256}
+        - {x: -9, y: 262}
+        - {x: -7, y: 261}
+        - {x: -6, y: 262}
+        - {x: -7, y: 262}
+        - {x: -10, y: 259}
+        - {x: -10, y: 256}
+        - {x: -9, y: 255}
+        - {x: -8, y: 255}
+      - - {x: 272, y: 270}
+        - {x: 272, y: 267}
+        - {x: 284, y: 254}
+        - {x: 320, y: 254}
+        - {x: 321, y: 257}
+        - {x: 321, y: 270}
+      - - {x: 384, y: 270}
+        - {x: 384, y: 260}
+        - {x: 388, y: 254}
+        - {x: 429, y: 254}
+        - {x: 433, y: 255}
+        - {x: 433, y: 270}
+      - - {x: 440, y: 270}
+        - {x: 441, y: 262}
+        - {x: 443, y: 260}
+        - {x: 453, y: 254}
+        - {x: 488, y: 254}
+        - {x: 489, y: 257}
+        - {x: 489, y: 270}
+      - - {x: 328, y: 270}
+        - {x: 329, y: 266}
+        - {x: 337, y: 256}
+        - {x: 345, y: 255}
+        - {x: 377, y: 255}
+        - {x: 377, y: 270}
+      - - {x: 14, y: 259}
+        - {x: 14, y: 260}
+        - {x: 14, y: 259}
+        - {x: 15, y: 258}
+        - {x: 15, y: 259}
+      - - {x: 125, y: 260}
+        - {x: 125, y: 259}
+        - {x: 128, y: 262}
+        - {x: 127, y: 264}
+        - {x: 128, y: 263}
+        - {x: 132, y: 263}
+        - {x: 131, y: 261}
+        - {x: 131, y: 258}
+        - {x: 130, y: 259}
+      - - {x: 3, y: 265}
+        - {x: 2, y: 266}
+        - {x: 6, y: 265}
+        - {x: 5, y: 265}
+        - {x: 2, y: 262}
+      - - {x: 20, y: 266}
+        - {x: 21, y: 264}
+        - {x: 20, y: 265}
+      - - {x: 61, y: 267}
+        - {x: 63, y: 265}
+        - {x: 65, y: 266}
+        - {x: 64, y: 265}
+        - {x: 62, y: 265}
+        - {x: 62, y: 266}
+      - - {x: -511, y: 270}
+        - {x: -511, y: 264}
+        - {x: -467, y: 264}
+        - {x: -465, y: 266}
+        - {x: -465, y: 270}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47305410000000000800000000000000
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_43
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 720
+        width: 114
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67305410000000000800000000000000
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_44
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 720
+        width: 168
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87305410000000000800000000000000
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_45
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 768
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7305410000000000800000000000000
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_46
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 671
+        width: 120
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7305410000000000800000000000000
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 612
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7305410000000000800000000000000
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_48
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 114
+        width: 199
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08305410000000000800000000000000
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_49
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 108
+        width: 72
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28305410000000000800000000000000
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_Common_2x_50
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 0
+        width: 404
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48305410000000000800000000000000
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 861abe436770bb24f9744ae8adf9ddb7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      HLDDZ_Common_2x_0: 21300000
+      HLDDZ_Common_2x_1: 21300002
+      HLDDZ_Common_2x_10: 21300020
+      HLDDZ_Common_2x_11: 21300022
+      HLDDZ_Common_2x_12: 21300024
+      HLDDZ_Common_2x_13: 21300026
+      HLDDZ_Common_2x_14: 21300028
+      HLDDZ_Common_2x_15: 21300030
+      HLDDZ_Common_2x_16: 21300032
+      HLDDZ_Common_2x_17: 21300034
+      HLDDZ_Common_2x_18: 21300036
+      HLDDZ_Common_2x_19: 21300038
+      HLDDZ_Common_2x_2: 21300004
+      HLDDZ_Common_2x_20: 21300040
+      HLDDZ_Common_2x_21: 21300042
+      HLDDZ_Common_2x_22: 21300044
+      HLDDZ_Common_2x_23: 21300046
+      HLDDZ_Common_2x_24: 21300048
+      HLDDZ_Common_2x_25: 21300050
+      HLDDZ_Common_2x_26: 21300052
+      HLDDZ_Common_2x_27: 21300054
+      HLDDZ_Common_2x_28: 21300056
+      HLDDZ_Common_2x_29: 21300058
+      HLDDZ_Common_2x_3: 21300006
+      HLDDZ_Common_2x_30: 21300060
+      HLDDZ_Common_2x_31: 21300062
+      HLDDZ_Common_2x_32: 21300064
+      HLDDZ_Common_2x_33: 21300066
+      HLDDZ_Common_2x_34: 21300068
+      HLDDZ_Common_2x_35: 21300070
+      HLDDZ_Common_2x_36: 21300072
+      HLDDZ_Common_2x_37: 21300074
+      HLDDZ_Common_2x_38: 21300076
+      HLDDZ_Common_2x_39: 21300078
+      HLDDZ_Common_2x_4: 21300008
+      HLDDZ_Common_2x_40: 21300080
+      HLDDZ_Common_2x_41: 21300082
+      HLDDZ_Common_2x_42: 21300084
+      HLDDZ_Common_2x_43: 21300086
+      HLDDZ_Common_2x_44: 21300088
+      HLDDZ_Common_2x_45: 21300090
+      HLDDZ_Common_2x_46: 21300092
+      HLDDZ_Common_2x_47: 21300094
+      HLDDZ_Common_2x_48: 21300096
+      HLDDZ_Common_2x_49: 21300098
+      HLDDZ_Common_2x_5: 21300010
+      HLDDZ_Common_2x_50: 21300100
+      HLDDZ_Common_2x_6: 21300012
+      HLDDZ_Common_2x_7: 21300014
+      HLDDZ_Common_2x_8: 21300016
+      HLDDZ_Common_2x_9: 21300018
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,27 @@
+{
+    "options": {
+        "useExtension": 1,
+        "layoutGap": 0,
+        "extend": 0,
+        "layoutMath": "2",
+        "sizeMode": "free"
+    },
+    "files": [
+        "./losepanle.png",
+        "./loseinfo.png",
+        "./loseflag.png",
+        "./land_sp_flagfanchuntian.png",
+        "./land_sp_flagchuntian.png",
+        "./h2.png",
+        "./h1.png",
+        "./game_bt_score_two.png",
+        "./game_bt_score_three.png",
+        "./game_bt_score_one.png",
+        "./winpanle.png",
+        "./wininfo.png",
+        "./winflag.png",
+        "./setting_bg.png"
+    ],
+    "version": 5,
+    "projectName": "OTHER"
+}
