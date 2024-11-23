@@ -14,5 +14,6 @@ public class MsgLogin : MsgBase
     public string id;
     public string pw;
     public bool result;
+    public string errorMsg; // 添加错误消息字段
 }
 

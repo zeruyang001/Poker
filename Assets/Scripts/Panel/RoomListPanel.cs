@@ -5,33 +5,90 @@ using UnityEngine.UI;
 
 public class RoomListPanel : BasePanel
 {
-    private Text idText;
-    private Text beanText;
+        #region UI Components
+    // 个人信息UI组件
+    private Image playerAvatar; // 玩家头像
+    private Text playerNameText; // 玩家名字
+    private Text playerIdText;  // 玩家ID
+    private Text scoreText;    // 积分
+    private Text beanText;     // 游戏豆
+    
+    // 房间列表UI组件
     private Button createButton;
     private Button refreshButton;
+    private Button matchButton;
     private Button singlePlayerButton;
     private Transform content;
     private GameObject roomObj;
-
     private Text roomIdText;
+    #endregion
+
+    #region Default Avatar
+    private static readonly string DEFAULT_AVATAR_PATH = "Avatars/default_avatar"; // 默认头像路径
+    private Sprite defaultAvatarSprite;
+    #endregion
+
     public override void OnInit()
     {
         layer = PanelManager.Layer.Panel;
     }
     public override void OnShow(params object[] para)
     {
-        //Ѱ�����
-        idText = gameObject.transform.Find("Head/IdText").GetComponent<Text>();
-        beanText = gameObject.transform.Find("Head/BeanText").GetComponent<Text>();
-        createButton = gameObject.transform.Find("Create/CreateButton").GetComponent<Button>();
-        refreshButton = gameObject.transform.Find("Create/RefreshButton").GetComponent<Button>();
-        singlePlayerButton = gameObject.transform.Find("Create/SinglePlayerButton").GetComponent<Button>();
-        content = gameObject.transform.Find("RoomList/Scroll View/Viewport/Content");
-        roomObj = gameObject.transform.Find("Room").gameObject;
+        InitializeComponents();
+        SetupListeners();
+        LoadDefaultAvatar();
+        FetchAndDisplayPlayerInfo();
+        RefreshRoomList();
+    }
+    private void InitializeComponents()
+    {
+        // 初始化个人信息UI组件
+        Transform playerInfoPanel = transform.Find("PlayerInfoPanel");
+        playerAvatar = playerInfoPanel.Find("Avatar").GetComponent<Image>();
+        playerNameText = playerInfoPanel.Find("NameText").GetComponent<Text>();
+        playerIdText = playerInfoPanel.Find("ID/IdText").GetComponent<Text>();
+        scoreText = playerInfoPanel.Find("Score/ScoreText").GetComponent<Text>();
+        beanText = playerInfoPanel.Find("Bean/BeanText").GetComponent<Text>();
 
-
+        // 初始化房间列表UI组件
+        createButton = transform.Find("Create/CreateButton").GetComponent<Button>();
+        refreshButton = transform.Find("Create/RefreshButton").GetComponent<Button>();
+        matchButton = transform.Find("Create/MatchButton").GetComponent<Button>();
+        singlePlayerButton = transform.Find("Create/SinglePlayerButton").GetComponent<Button>();
+        content = transform.Find("RoomList/Scroll View/Viewport/Content");
+        roomObj = transform.Find("Room").gameObject;
         roomObj.SetActive(false);
-        idText.text = GameManager.id;
+    }
+
+        private void SetupListeners()
+    {
+        NetManager.AddMsgListener("MsgGetBasePlayerInfo", OnMsgGetBasePlayerInfo);
+        NetManager.AddMsgListener("MsgGetAchieve", OnMsgGetAchieve);
+        NetManager.AddMsgListener("MsgCreateRoom", OnMsgCreateRoom);
+        NetManager.AddMsgListener("MsgEnterRoom", OnMsgEnterRoom);
+        NetManager.AddMsgListener("MsgGetRoomList", OnMsgGetRoomList);
+
+        // 按钮点击事件
+        createButton.onClick.AddListener(() => {
+            AudioManager.Instance.PlaySoundEffect(Music.Enter);
+            OnCreateClick();
+        });
+
+        refreshButton.onClick.AddListener(() => {
+            AudioManager.Instance.PlaySoundEffect(Music.Enter);
+            OnRefreshClick();
+        });
+
+        singlePlayerButton.onClick.AddListener(() => {
+            AudioManager.Instance.PlaySoundEffect(Music.Enter);
+            OnSinglePlayerClick();
+        });
+    }
+
+    public override void OnShow(params object[] para)
+    {
+        //Ѱ�����
+        playerIdText.text = GameManager.id;
 
         NetManager.AddMsgListener("MsgGetAchieve", OnMsgGetAchieve);
         NetManager.AddMsgListener("MsgCreateRoom", OnMsgCreateRoom);
@@ -43,19 +100,19 @@ public class RoomListPanel : BasePanel
         MsgGetRoomList msgGetRoomList = new MsgGetRoomList();
         NetManager.Send(msgGetRoomList);
 
-        // Ϊ��ť���ӵ����Ч
+        // Ϊ��ť���ӵ����Ч
         createButton.onClick.AddListener(() => {
             AudioManager.Instance.PlaySoundEffect(Music.Enter);
             OnCreateClick();
         });
 
-        // Ϊ��ť���ӵ����Ч
+        // Ϊ��ť���ӵ����Ч
         refreshButton.onClick.AddListener(() => {
             AudioManager.Instance.PlaySoundEffect(Music.Enter);
             OnRefreshClick();
         });
 
-        // Ϊ��ť���ӵ����Ч
+        // Ϊ��ť���ӵ����Ч
         singlePlayerButton.onClick.AddListener(() => {
             AudioManager.Instance.PlaySoundEffect(Music.Enter);
             OnSinglePlayerClick();
@@ -78,6 +135,26 @@ public class RoomListPanel : BasePanel
         MsgGetRoomList msg = new MsgGetRoomList();
         NetManager.Send(msg);
     }
+    private void OnMsgGetPlayerInfo(MsgBase msgBase)
+    {
+        MsgGetBasePlayerInfo msg = new MsgGetBasePlayerInfo();
+        if (msg != null)
+        {
+            // 更新UI显示
+            playerNameText.text = msg.playerName;
+            playerIdText.text = $"ID: {msg.playerId}";
+            scoreText.text = $"积分: {msg.score}";
+            beanText.text = $"游戏豆: {msg.beans}";
+
+            // 处理头像
+            if (!string.IsNullOrEmpty(msg.avatarUrl))
+            {
+                // TODO: 加载服务器头像的逻辑
+                StartCoroutine(LoadAvatarFromUrl(msg.avatarUrl));
+            }
+        }
+    }
+
     public void OnMsgGetAchieve(MsgBase msgBase)
     {
         MsgGetAchieve msg = msgBase as MsgGetAchieve;
@@ -88,13 +165,13 @@ public class RoomListPanel : BasePanel
         MsgCreateRoom msg = msgBase as MsgCreateRoom;
         if (msg.result)
         {
-            PanelManager.Open<TipPanel>("�����ɹ�");
+            PanelManager.Open<TipPanel>("�����ɹ�");
             PanelManager.Open<RoomPanel>();
             Close();
         }
         else
         {
-            PanelManager.Open<TipPanel>("����ʧ��");
+            PanelManager.Open<TipPanel>("����ʧ��");
         }
     }
     public void OnMsgGetRoomList(MsgBase msgBase)
@@ -123,7 +200,7 @@ public class RoomListPanel : BasePanel
         }
         else
         {
-            PanelManager.Open<TipPanel>("���뷿��ʧ��");
+            PanelManager.Open<TipPanel>("���뷿��ʧ��");
         }
     }
 
@@ -145,11 +222,11 @@ public class RoomListPanel : BasePanel
         countText.text = roomInfo.count.ToString();
         if (roomInfo.isPrepare)
         {
-            statusText.text = "׼����";
+            statusText.text = "׼����";
         }
         else
         {
-            statusText.text = "�ѿ�ʼ";
+            statusText.text = "�ѿ�ʼ";
         }
         joinButton.onClick.AddListener(OnJoinClick);
     }
@@ -163,7 +240,7 @@ public class RoomListPanel : BasePanel
     private void OnSinglePlayerClick()
     {
         Close();
-        // ֱ�ӽ��뵥��ģʽ
+        // ֱ�ӽ��뵥��ģʽ
         GameManager.Instance.StartSinglePlayerGame();
         
     }

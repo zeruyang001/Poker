@@ -11,4 +11,5 @@ public class MsgKick : MsgBase
         protoName = "MsgKick";
     }
     public bool isKick = true;
+    public string reason = string.Empty;
 }
