@@ -49,7 +49,7 @@ public class RoomPanel : BasePanel
         MsgGetRoomInfo msgGetRoomInfo = new MsgGetRoomInfo();
         NetManager.Send(msgGetRoomInfo);
 
-        // ²¥·ÅËæ»úµÄ"±³¾°"ÒôÀÖ
+        // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"ï¿½ï¿½ï¿½ï¿½"ï¿½ï¿½ï¿½ï¿½
         AudioManager.Instance.PlayRandomBackgroundMusic(Music.BG);
     }
 
@@ -60,7 +60,7 @@ public class RoomPanel : BasePanel
         NetManager.RemoveMsgListener("MsgPrepare", OnMsgPrepare);
         NetManager.RemoveMsgListener("MsgStartBattle", OnMsgStartBattle);
 
-        // Í£Ö¹±³¾°ÒôÀÖ
+        // Í£Ö¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         AudioManager.Instance.StopBackgroundMusic();
     }
     public void OnStartClick()
@@ -85,11 +85,11 @@ public class RoomPanel : BasePanel
         {
             Destroy(content.GetChild(i).gameObject);
         }
-        if (msg.players == null)
+        if (msg.playersInfo == null)
             return;
-        for (int i = 0; i < msg.players.Length; i++)
+        for (int i = 0; i < msg.playersInfo.Length; i++)
         {
-            GeneratePlayerInfo(msg.players[i]);
+            GeneratePlayerInfo(msg.playersInfo[i]);
         }
     }
     public void GeneratePlayerInfo(PlayerInfo playerInfo)
@@ -109,11 +109,11 @@ public class RoomPanel : BasePanel
         beanText.text = playerInfo.bean.ToString();
         if (playerInfo.isPrepare)
         {
-            statusText.text = "ÒÑ×¼±¸";
+            statusText.text = "ï¿½ï¿½×¼ï¿½ï¿½";
         }
         else
         {
-            statusText.text = "Î´×¼±¸";
+            statusText.text = "Î´×¼ï¿½ï¿½";
         }
         if (playerInfo.isHost)
         {
@@ -145,13 +145,13 @@ public class RoomPanel : BasePanel
         MsgLeaveRoom msg = msgBase as MsgLeaveRoom;
         if (msg.result)
         {
-            PanelManager.Open<TipPanel>("ÍË³ö·¿¼ä");
+            PanelManager.Open<TipPanel>("ï¿½Ë³ï¿½ï¿½ï¿½ï¿½ï¿½");
             PanelManager.Open<RoomListPanel>();
             Close();
         }
         else
         {
-            PanelManager.Open<TipPanel>("ÍË³ö·¿¼äÊ§°Ü");
+            PanelManager.Open<TipPanel>("ï¿½Ë³ï¿½ï¿½ï¿½ï¿½ï¿½Ê§ï¿½ï¿½");
         }
     }
 
@@ -174,16 +174,16 @@ public class RoomPanel : BasePanel
                 Close();
                 break;
             case 1:
-                PanelManager.Open<TipPanel>("ÈËÊý²»×ãÈýÈË£¬ÎÞ·¨¿ªÊ¼");
+                PanelManager.Open<TipPanel>("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë£ï¿½ï¿½Þ·ï¿½ï¿½ï¿½Ê¼");
                 break;
             case 2:
-                PanelManager.Open<TipPanel>("ÓÐÍæ¼ÒÎ´×¼±¸,ÎÞ·¨¿ªÊ¼");
+                PanelManager.Open<TipPanel>("ï¿½ï¿½ï¿½ï¿½ï¿½Î´×¼ï¿½ï¿½,ï¿½Þ·ï¿½ï¿½ï¿½Ê¼");
                 break;
             case 3:
-                PanelManager.Open<TipPanel>("²»ÔÚµ±Ç°·¿¼ä");
+                PanelManager.Open<TipPanel>("ï¿½ï¿½ï¿½Úµï¿½Ç°ï¿½ï¿½ï¿½ï¿½");
                 break;
             default:
-                PanelManager.Open<TipPanel>("Î´Öª´íÎó");
+                PanelManager.Open<TipPanel>("Î´Öªï¿½ï¿½ï¿½ï¿½");
                 break;
         }
     }

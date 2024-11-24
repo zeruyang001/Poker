@@ -11,6 +11,6 @@ public class MsgGetRoomInfo : MsgBase
     {
         protoName = "MsgGetRoomInfo";
     }
-    public PlayerInfo[] players;
+    public PlayerInfo[] playersInfo;
 }
 

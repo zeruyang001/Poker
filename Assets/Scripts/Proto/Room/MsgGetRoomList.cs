@@ -10,5 +10,5 @@ public class MsgGetRoomList:MsgBase
     {
         protoName = "MsgGetRoomList";
     }
-    public RoomInfo[] rooms;
+    public RoomInfo[] roomsInfo;
 }

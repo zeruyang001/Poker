@@ -2,17 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Networking;
+using System.Threading.Tasks;
+using System;
 
 public class RoomListPanel : BasePanel
 {
-        #region UI Components
+    #region UI Components
     // 个人信息UI组件
-    private Image playerAvatar; // 玩家头像
-    private Text playerNameText; // 玩家名字
-    private Text playerIdText;  // 玩家ID
-    private Text scoreText;    // 积分
-    private Text beanText;     // 游戏豆
-    
+    private Image playerAvatar;
+    private Text playerNameText;
+    private Text playerIdText;
+    private Text pointText;
+    private Text beanText;
+
     // 房间列表UI组件
     private Button createButton;
     private Button refreshButton;
@@ -28,18 +31,87 @@ public class RoomListPanel : BasePanel
     private Sprite defaultAvatarSprite;
     #endregion
 
+    #region  Unity Lifecycle
     public override void OnInit()
     {
         layer = PanelManager.Layer.Panel;
     }
     public override void OnShow(params object[] para)
     {
+        // 1. 初始化UI组件
         InitializeComponents();
-        SetupListeners();
+
+        // 2. 加载默认头像
         LoadDefaultAvatar();
-        FetchAndDisplayPlayerInfo();
-        RefreshRoomList();
+
+        // 3. 设置事件监听
+        SetupListeners();
+
+        // 4. 开始异步初始化
+        _ = InitializeAsync();
+
+        // 5. 刷新房间列表
+        OnRefreshClick();
+
+        // 播放背景音乐
+        AudioManager.Instance.PlayRandomBackgroundMusic(Music.BG);
     }
+
+    // 新增: 异步初始化方法
+    private async Task InitializeAsync()
+    {
+        try
+        {
+            // 初始化玩家数据
+            await InitializePlayerData();
+
+            // 刷新房间列表
+            OnRefreshClick();
+        }
+        catch (Exception e)
+        {
+            Debug.LogError($"初始化失败: {e.Message}");
+            ShowTip("初始化失败，请重试");
+        }
+    }
+
+    private async Task InitializePlayerData()
+    {
+        // 初始化PlayerDataManager
+        await PlayerDataManager.Instance.Initialize();
+
+        // 首次更新UI显示
+        UpdateUIDisplay(PlayerDataManager.Instance.LocalData);
+
+        // 如果有头像URL，加载头像
+        if (!string.IsNullOrEmpty(PlayerDataManager.Instance.LocalData.avatarUrl))
+        {
+            StartCoroutine(LoadAvatarFromUrl(PlayerDataManager.Instance.LocalData.avatarUrl));
+        }
+
+        // 注册数据更新事件
+        PlayerDataManager.Instance.OnDataUpdated += UpdateUIDisplay;
+    }
+
+    public override void OnClose()
+    {
+        // 移除数据更新监听
+        if (PlayerDataManager.Instance != null)
+        {
+            PlayerDataManager.Instance.OnDataUpdated -= UpdateUIDisplay;
+        }
+
+        // 移除网络消息监听
+        NetManager.RemoveMsgListener("MsgCreateRoom", OnMsgCreateRoom);
+        NetManager.RemoveMsgListener("MsgEnterRoom", OnMsgEnterRoom);
+        NetManager.RemoveMsgListener("MsgGetRoomList", OnMsgGetRoomList);
+
+        // 停止背景音乐
+        AudioManager.Instance.StopBackgroundMusic();
+    }
+    #endregion
+
+    #region Initialization Methods
     private void InitializeComponents()
     {
         // 初始化个人信息UI组件
@@ -47,7 +119,7 @@ public class RoomListPanel : BasePanel
         playerAvatar = playerInfoPanel.Find("Avatar").GetComponent<Image>();
         playerNameText = playerInfoPanel.Find("NameText").GetComponent<Text>();
         playerIdText = playerInfoPanel.Find("ID/IdText").GetComponent<Text>();
-        scoreText = playerInfoPanel.Find("Score/ScoreText").GetComponent<Text>();
+        pointText = playerInfoPanel.Find("Point/PointText").GetComponent<Text>();
         beanText = playerInfoPanel.Find("Bean/BeanText").GetComponent<Text>();
 
         // 初始化房间列表UI组件
@@ -59,189 +131,227 @@ public class RoomListPanel : BasePanel
         roomObj = transform.Find("Room").gameObject;
         roomObj.SetActive(false);
     }
-
-        private void SetupListeners()
+    private void LoadDefaultAvatar()
     {
-        NetManager.AddMsgListener("MsgGetBasePlayerInfo", OnMsgGetBasePlayerInfo);
-        NetManager.AddMsgListener("MsgGetAchieve", OnMsgGetAchieve);
+        defaultAvatarSprite = Resources.Load<Sprite>(DEFAULT_AVATAR_PATH);
+        if (defaultAvatarSprite == null)
+        {
+            Debug.LogWarning("无法加载默认头像!");
+        }
+        // 先设置默认头像
+        if (playerAvatar != null && defaultAvatarSprite != null)
+        {
+            playerAvatar.sprite = defaultAvatarSprite;
+        }
+    }
+
+    private void SetupListeners()
+    {
         NetManager.AddMsgListener("MsgCreateRoom", OnMsgCreateRoom);
         NetManager.AddMsgListener("MsgEnterRoom", OnMsgEnterRoom);
         NetManager.AddMsgListener("MsgGetRoomList", OnMsgGetRoomList);
 
         // 按钮点击事件
-        createButton.onClick.AddListener(() => {
-            AudioManager.Instance.PlaySoundEffect(Music.Enter);
-            OnCreateClick();
-        });
-
-        refreshButton.onClick.AddListener(() => {
-            AudioManager.Instance.PlaySoundEffect(Music.Enter);
-            OnRefreshClick();
-        });
-
-        singlePlayerButton.onClick.AddListener(() => {
-            AudioManager.Instance.PlaySoundEffect(Music.Enter);
-            OnSinglePlayerClick();
-        });
-    }
-
-    public override void OnShow(params object[] para)
-    {
-        //Ѱ�����
-        playerIdText.text = GameManager.id;
-
-        NetManager.AddMsgListener("MsgGetAchieve", OnMsgGetAchieve);
-        NetManager.AddMsgListener("MsgCreateRoom", OnMsgCreateRoom);
-        NetManager.AddMsgListener("MsgEnterRoom", OnMsgEnterRoom);
-        NetManager.AddMsgListener("MsgGetRoomList", OnMsgGetRoomList);
-
-        MsgGetAchieve msgGetAchieve = new MsgGetAchieve();
-        NetManager.Send(msgGetAchieve);
-        MsgGetRoomList msgGetRoomList = new MsgGetRoomList();
-        NetManager.Send(msgGetRoomList);
-
-        // Ϊ��ť���ӵ����Ч
-        createButton.onClick.AddListener(() => {
-            AudioManager.Instance.PlaySoundEffect(Music.Enter);
-            OnCreateClick();
-        });
-
-        // Ϊ��ť���ӵ����Ч
-        refreshButton.onClick.AddListener(() => {
-            AudioManager.Instance.PlaySoundEffect(Music.Enter);
-            OnRefreshClick();
-        });
-
-        // Ϊ��ť���ӵ����Ч
-        singlePlayerButton.onClick.AddListener(() => {
-            AudioManager.Instance.PlaySoundEffect(Music.Enter);
-            OnSinglePlayerClick();
-        });
-    }
-    public override void OnClose()
-    {
-        NetManager.RemoveMsgListener("MsgGetAchieve", OnMsgGetAchieve);
-        NetManager.RemoveMsgListener("MsgCreateRoom", OnMsgCreateRoom);
-        NetManager.RemoveMsgListener("MsgEnterRoom", OnMsgEnterRoom);
-        NetManager.RemoveMsgListener("MsgGetRoomList", OnMsgGetRoomList);
-    }
-    public void OnCreateClick()
-    {
-        MsgCreateRoom msg = new MsgCreateRoom();
-        NetManager.Send(msg);
-    }
-    public void OnRefreshClick()
-    {
-        MsgGetRoomList msg = new MsgGetRoomList();
-        NetManager.Send(msg);
-    }
-    private void OnMsgGetPlayerInfo(MsgBase msgBase)
-    {
-        MsgGetBasePlayerInfo msg = new MsgGetBasePlayerInfo();
-        if (msg != null)
+        createButton.onClick.AddListener(() =>
         {
-            // 更新UI显示
-            playerNameText.text = msg.playerName;
-            playerIdText.text = $"ID: {msg.playerId}";
-            scoreText.text = $"积分: {msg.score}";
-            beanText.text = $"游戏豆: {msg.beans}";
+            AudioManager.Instance.PlaySoundEffect(Music.Enter);
+            OnCreateClick();
+        });
 
-            // 处理头像
-            if (!string.IsNullOrEmpty(msg.avatarUrl))
+        refreshButton.onClick.AddListener(() =>
+        {
+            AudioManager.Instance.PlaySoundEffect(Music.Enter);
+            OnRefreshClick();
+        });
+
+        singlePlayerButton.onClick.AddListener(() =>
+        {
+            AudioManager.Instance.PlaySoundEffect(Music.Enter);
+            OnSinglePlayerClick();
+        });
+        matchButton.onClick.AddListener(() =>
+        {
+            AudioManager.Instance.PlaySoundEffect(Music.Enter);
+            OnMatchClick();
+        });
+    }
+    #endregion
+
+
+    #region UI Update Methods
+    private void UpdateUIDisplay(PlayerDataManager.PlayerData data)
+    {
+        if (data == null) return;
+        playerNameText.text = data.playerName;
+        playerIdText.text = data.playerId;
+        pointText.text = data.point.ToString();
+        beanText.text = data.beans.ToString();
+    }
+
+    private IEnumerator LoadAvatarFromUrl(string url)
+    {
+        if (string.IsNullOrEmpty(url)) yield break;
+
+        using (UnityWebRequest www = UnityWebRequestTexture.GetTexture(url))
+        {
+            yield return www.SendWebRequest();
+
+            if (www.result == UnityWebRequest.Result.Success)
             {
-                // TODO: 加载服务器头像的逻辑
-                StartCoroutine(LoadAvatarFromUrl(msg.avatarUrl));
+                Texture2D texture = ((DownloadHandlerTexture)www.downloadHandler).texture;
+                if (texture != null && playerAvatar != null)
+                {
+                    playerAvatar.sprite = Sprite.Create(
+                        texture,
+                        new Rect(0, 0, texture.width, texture.height),
+                        new Vector2(0.5f, 0.5f)
+                    );
+                }
+            }
+            else
+            {
+                Debug.LogWarning($"加载头像失败: {www.error}");
+                if (defaultAvatarSprite != null && playerAvatar != null)
+                {
+                    playerAvatar.sprite = defaultAvatarSprite;
+                }
             }
         }
     }
+    #endregion
 
-    public void OnMsgGetAchieve(MsgBase msgBase)
-    {
-        MsgGetAchieve msg = msgBase as MsgGetAchieve;
-        beanText.text = msg.bean.ToString();
-    }
-    public void OnMsgCreateRoom(MsgBase msgBase)
-    {
-        MsgCreateRoom msg = msgBase as MsgCreateRoom;
-        if (msg.result)
-        {
-            PanelManager.Open<TipPanel>("�����ɹ�");
-            PanelManager.Open<RoomPanel>();
-            Close();
-        }
-        else
-        {
-            PanelManager.Open<TipPanel>("����ʧ��");
-        }
-    }
-    public void OnMsgGetRoomList(MsgBase msgBase)
-    {
-        MsgGetRoomList msg = msgBase as MsgGetRoomList;
-        for (int i = content.childCount - 1; i >= 0; i--)
-        {
-            Destroy(content.GetChild(i).gameObject);
-        }
-        if (msg.rooms == null)
-            return;
-        for (int i = 0; i < msg.rooms.Length; i++)
-        {
-            GenerateRoom(msg.rooms[i]);
-        }
-
-    }
-    public void OnMsgEnterRoom(MsgBase msgBase)
-    {
-        MsgEnterRoom msg = msgBase as MsgEnterRoom;
-        if (msg.result)
-        {
-            Debug.Log("Attempting to open RoomListPanel");
-            PanelManager.Open<RoomPanel>();
-            Close();
-        }
-        else
-        {
-            PanelManager.Open<TipPanel>("���뷿��ʧ��");
-        }
-    }
-
+    #region Room Management
     public void GenerateRoom(RoomInfo roomInfo)
     {
-        GameObject o = Instantiate(roomObj);
-        o.transform.SetParent(content);
+        GameObject o = Instantiate(roomObj, content);
         o.SetActive(true);
         o.transform.localScale = Vector3.one;
 
-
         Transform trans = o.transform;
-        roomIdText=trans.Find("IdText").GetComponent<Text>();
+        roomIdText = trans.Find("IdText").GetComponent<Text>();
         Text countText = trans.Find("CountText").GetComponent<Text>();
         Text statusText = trans.Find("StatusText").GetComponent<Text>();
         Button joinButton = trans.Find("JoinButton").GetComponent<Button>();
 
         roomIdText.text = roomInfo.id.ToString();
         countText.text = roomInfo.count.ToString();
-        if (roomInfo.isPrepare)
+        statusText.text = roomInfo.isPrepare ? "准备中" : "已开始";
+
+        joinButton.onClick.AddListener(OnJoinClick);
+    }
+
+    private void ClearRoomList()
+    {
+        for (int i = content.childCount - 1; i >= 0; i--)
         {
-            statusText.text = "׼����";
+            Destroy(content.GetChild(i).gameObject);
+        }
+    }
+    #endregion
+
+    #region Network Message Handlers
+    public void OnMsgCreateRoom(MsgBase msgBase)
+    {
+        MsgCreateRoom msg = msgBase as MsgCreateRoom;
+        if (msg.result)
+        {
+            ShowTip("创建成功");
+            PanelManager.Open<RoomPanel>();
+            Close();
         }
         else
         {
-            statusText.text = "�ѿ�ʼ";
+            ShowTip("创建失败");
         }
-        joinButton.onClick.AddListener(OnJoinClick);
     }
-    public void OnJoinClick()
+
+    public void OnMsgGetRoomList(MsgBase msgBase)
     {
-        MsgEnterRoom msgEnterRoom = new MsgEnterRoom();
-        msgEnterRoom.id = int.Parse(roomIdText.text);
-        NetManager.Send(msgEnterRoom);
+        MsgGetRoomList msg = msgBase as MsgGetRoomList;
+
+        ClearRoomList();
+
+        if (msg.roomsInfo != null)
+        {
+            foreach (var room in msg.roomsInfo)
+            {
+                GenerateRoom(room);
+            }
+        }
+    }
+
+    public void OnMsgEnterRoom(MsgBase msgBase)
+    {
+        MsgEnterRoom msg = msgBase as MsgEnterRoom;
+        if (msg.result)
+        {
+            PanelManager.Open<RoomPanel>();
+            Close();
+        }
+        else
+        {
+            ShowTip("进入房间失败");
+        }
+    }
+    #endregion
+
+    #region Button Handlers
+    private void OnCreateClick()
+    {
+        MsgCreateRoom msg = new MsgCreateRoom();
+        NetManager.Send(msg);
+    }
+
+    private void OnRefreshClick()
+    {
+        MsgGetRoomList msg = new MsgGetRoomList();
+        NetManager.Send(msg);
+    }
+
+    private void OnJoinClick()
+    {
+        if (int.TryParse(roomIdText.text, out int roomId))
+        {
+            MsgEnterRoom msg = new MsgEnterRoom { id = roomId };
+            NetManager.Send(msg);
+        }
+        else
+        {
+            ShowTip("房间号无效");
+        }
+    }
+
+    // 新增 OnMatchClick 方法
+    private void OnMatchClick()
+    {
+        if (PlayerDataManager.Instance?.LocalData == null)
+        {
+            ShowTip("玩家数据未初始化");
+            return;
+        }
+
+        // 检查是否有足够的游戏豆
+        if (PlayerDataManager.Instance.LocalData.beans < 1000)
+        {
+            ShowTip("游戏豆不足1000,无法开始匹配");
+            return;
+        }
+
+        // 直接打开匹配面板
+        PanelManager.Open<MatchRoomPanel>();
     }
 
     private void OnSinglePlayerClick()
     {
         Close();
-        // ֱ�ӽ��뵥��ģʽ
         GameManager.Instance.StartSinglePlayerGame();
-        
     }
+    #endregion
+
+    #region Helper Methods
+    private void ShowTip(string message)
+    {
+        PanelManager.Open<TipPanel>(message);
+    }
+    #endregion
 }
